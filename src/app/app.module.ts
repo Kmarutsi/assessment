@@ -10,6 +10,7 @@ import { appRoutingModule } from './app.routing';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
+import { ViewComponent } from './view';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { AlertComponent } from './_components';
@@ -26,7 +27,8 @@ import { AlertComponent } from './_components';
         HomeComponent,
         LoginComponent,
         RegisterComponent,
-        AlertComponent
+        AlertComponent,
+        ViewComponent
     ],
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },

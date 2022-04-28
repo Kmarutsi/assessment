@@ -6,3 +6,10 @@
     lastName: string;
     token: string;
 }
+
+export class Countries {
+    id: number;
+    name: string;
+    dateCreated: string;
+    active: string;
+}

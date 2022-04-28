@@ -1,5 +1,6 @@
 # angular-8-registration-login-example
 
-Angular 8 User Registration and Login Example with Webpack 4
+Assessment question
 
-Full tutorial with example available at https://jasonwatmore.com/post/2019/06/10/angular-8-user-registration-and-login-example-tutorial
+This is an assessment question
+to run npm i and the npm start
